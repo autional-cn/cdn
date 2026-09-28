@@ -49,9 +49,24 @@ ui/v<version>/logo/
 `site.webmanifest` 是**生成**的而非拷贝来的：原始那份用相对路径，搬到 CDN 上就是死链；
 且它的 `theme_color` 取自设计系统令牌，不是手填的字面量。
 
-## 已知遗留
+## 已知遗留：白色填充路径（U66 #12）
 
-- `logo/logo-mark.svg`（与 `favicon.svg`）含 `fill="rgb(255,255,255)"` 的路径，
-  **白底上该形状会隐形**。这不是本仓的问题，是资产本身的设计假设（为深色/彩色底设计）。
-  消费方在白底上应使用 `logo-mark.dark.svg` 或 `logo-mark.mono-black.svg`。
-  见 `autional-cn/ui` 的 `docs/logo-favicon-kit.md`。
+逐个查过 `assets/logo` 与 `assets/favicon` 的全部变体，各自含有的填充色是：
+
+| 文件 | 填充色 | 白底可用？ |
+|---|---|---|
+| `logo/logo-mark.svg` | `#93BFDE` `#FFFFFF` `#223A58` `#E8B440` | ⚠️ 白色那笔会隐形 |
+| `logo/logo-mark.color.svg` | 同上 | ⚠️ 同上 |
+| `logo/logo-mark.dark.svg` | `#93BFDE` `#FFFFFF` `#E8B440` | ⚠️ **同样含白色**，它是给深色底用的 |
+| `logo/logo-mark.mono-white.svg` | `#FFFFFF` | ❌ 白底完全不可见（本就不该用于白底） |
+| `logo/logo-mark.mono-black.svg` | `#000000` | ✅ 唯一在白底上确定安全的变体 |
+| `icons/favicon.svg` | `#0A2B47` `#93BFDE` `#FFFFFF` `#223A58` `#E8B440` | ⚠️ 同 logo-mark |
+
+**容易搞错的一点**：`logo-mark.dark.svg` 是「深色主题版本」（给深底用），不是「深色描边版本」，
+它同样含白色填充，**不能**当作白底方案。
+
+所以当前没有「白底彩色」变体。要修的话有两条路，都需要设计决策：
+① 把白色那一笔替换成一个在白底上可见的颜色，产出 `logo-mark.on-light.svg`；
+② 或者确认白色描边本就是为深色底设计的，白底一律用 `mono-black`。
+
+在定下来之前，**白底场景请用 `mono-black`**。见 `autional-cn/ui` 的 `docs/logo-favicon-kit.md`。
