@@ -47,23 +47,23 @@
     },
     {
       "path": "/ui/v0.1.0-rc/icons/favicon-dark.svg",
-      "bytes": 4045,
-      "sha384": "sha384-rav5cudq01OMFDedMutjSLFoJRsLCAP6XY3yf0I61RvMJK+iFnrQTWQIlN0b4/d5"
+      "bytes": 4033,
+      "sha384": "sha384-GZN0NUYujw++hUi3GGZAydhfEiG5+H6ljvxoDMTGFSfCoNWJhkBT/KM+MGo9HtU1"
     },
     {
       "path": "/ui/v0.1.0-rc/icons/favicon-light.svg",
-      "bytes": 4045,
-      "sha384": "sha384-FiHUHK/7pMHtPKklDsKKpjR7Sp6FDyfErU84SvK08pedrjCqsZLmDZAj9X6x31r0"
+      "bytes": 4033,
+      "sha384": "sha384-yThbq035Ys4Xih5lLDxl6ZcA2c02jyUrjBKXausbmvZpY2TJnpF5iNbBNZDwtAry"
     },
     {
       "path": "/ui/v0.1.0-rc/icons/favicon-mono-black.svg",
-      "bytes": 3955,
-      "sha384": "sha384-tzpMWCEsz4+TuyG7X4gEeKvB9dz8Xb6S2K6ZQp9qosjlRk9K/JX0RV8FIIND1E7u"
+      "bytes": 3943,
+      "sha384": "sha384-PvWUfR4dCN6ufEkPijNmMm9R82PQx/QC4PNhyBms0hcTCvQ94K3AqAUONkYNbM67"
     },
     {
       "path": "/ui/v0.1.0-rc/icons/favicon-mono-white.svg",
-      "bytes": 3955,
-      "sha384": "sha384-SzFmUjb1XJ5AqgbquVn5Xs2KNdzn45JCZQxJ4XDzo8PTxobyqX0jX9nKxuj1GlRn"
+      "bytes": 3943,
+      "sha384": "sha384-+cvvAySvG+oQptf2GkFhQBr9SjovjJxGzcRm6vM1+BPxHL5XkMZNsYa4hi2rFI4p"
     },
     {
       "path": "/ui/v0.1.0-rc/icons/favicon.ico",
@@ -72,8 +72,8 @@
     },
     {
       "path": "/ui/v0.1.0-rc/icons/favicon.svg",
-      "bytes": 4072,
-      "sha384": "sha384-NRBhtNYmVTBUkRrQT/VqEcaammJeIDhHuJ6jQA7i2CxnAe0P8mk4PN6iE2VeK+/z"
+      "bytes": 4060,
+      "sha384": "sha384-JPmCAvWuBBW9ti52yEeN28W1mnuyM+Q1tGYWAQQ9socSTCAx/Z6KlYlewXidgi7K"
     },
     {
       "path": "/ui/v0.1.0-rc/icons/site.webmanifest",
@@ -82,28 +82,28 @@
     },
     {
       "path": "/ui/v0.1.0-rc/logo/logo-mark.color.svg",
-      "bytes": 3963,
-      "sha384": "sha384-lJY1Ss6tgcJlh6vLxmn2yVArKc01SEneNcvy+lB/RXiX4b9G6TcWGRRq3jxfHCi1"
+      "bytes": 3952,
+      "sha384": "sha384-jsXq2Z+su7odo7EarpOjIte6RVkO+/8/cefb84oMUuPowxEQ8i8yIoAnubLs1YAs"
     },
     {
       "path": "/ui/v0.1.0-rc/logo/logo-mark.dark.svg",
-      "bytes": 3963,
-      "sha384": "sha384-llXpRvV4/dbaSBkpuetjr71cZ79GQ1s06khOj5d1eWJM9eBVoe1w7EBCJPH8fEe/"
+      "bytes": 3952,
+      "sha384": "sha384-uT9wFl9lUk/QsEyifrZOI7CZ+CgkrLflHtQxKg1RPazsu3t0t7TuVdp6jWBICkkk"
     },
     {
       "path": "/ui/v0.1.0-rc/logo/logo-mark.mono-black.svg",
-      "bytes": 3873,
-      "sha384": "sha384-AEv2viRgqXjMxi84hmMH4JP0gMW9fg03RMoDRrMviVc6s8NSSHQ5JPtmPMYNJ6pn"
+      "bytes": 3862,
+      "sha384": "sha384-+kwMW70owk+rXOn88++KXEYel68zonOCOwghhaKAtoYpBFI4BBCk/j+1O4o9PTZZ"
     },
     {
       "path": "/ui/v0.1.0-rc/logo/logo-mark.mono-white.svg",
-      "bytes": 3873,
-      "sha384": "sha384-x74/qhICsknvGfrffO8R2VqDXFzYdjkIanqIrotFcHtvcIEJUg4Wq9DtONUALHUb"
+      "bytes": 3862,
+      "sha384": "sha384-CidygiCSBbmMVFbxWk9ljoBrqaVgwCTRgCDL6FHFtgeOpjwDEH1NyaL3k1azsZPN"
     },
     {
       "path": "/ui/v0.1.0-rc/logo/logo-mark.svg",
-      "bytes": 3961,
-      "sha384": "sha384-XWm8xac/L5AvKC1SbVwnFHeCJiaU2shXYA3cP0rliE/jmBSkHnVRu9zBF4kgYQ3w"
+      "bytes": 3952,
+      "sha384": "sha384-o3IGktoxlyHDkiyoTNo9GVDmf+3XekToSN+zbCPYuHeHFFwHuNSri/2marQaBnKG"
     },
     {
       "path": "/ui/v0.1.0-rc/primitives.css",
