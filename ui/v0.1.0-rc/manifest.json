@@ -1,0 +1,119 @@
+{
+  "$note": "CDN 资产清单。sha384 用于 <link>/<script> 的 integrity 属性与 SRI 校验。路径一律不可变：内容变了必须换版本号。",
+  "version": "0.1.0-rc",
+  "base": "/ui/v0.1.0-rc",
+  "origin": "https://cdn.autional.cn",
+  "generatedFrom": "autional-cn/ui",
+  "files": [
+    {
+      "path": "/ui/v0.1.0-rc/fonts/LICENSE-Inter-OFL.txt",
+      "bytes": 4477,
+      "sha384": "sha384-kj3ws+qnzjazxsLTzPAVaXquIFuyNRYVaSXX024NG79Z2vDskAWFDhnsJYazAo0C"
+    },
+    {
+      "path": "/ui/v0.1.0-rc/fonts/inter-latin-wght-normal.woff2",
+      "bytes": 48256,
+      "sha384": "sha384-l0ql7Q1zqvX5klAVRwYjcMVCkCxg5dMTdghsIlC3pYkX6wwEHerh2bP/4yAao3Im"
+    },
+    {
+      "path": "/ui/v0.1.0-rc/icons/android-chrome-192x192.png",
+      "bytes": 24256,
+      "sha384": "sha384-71UVY6vd9I/q1cRjICd0GyEkD6Xd5bwiPrqOwxPWhs11EMUGsa5+4ubE3ZO3pjoo"
+    },
+    {
+      "path": "/ui/v0.1.0-rc/icons/android-chrome-512x512.png",
+      "bytes": 144926,
+      "sha384": "sha384-DrHvFQm3BSpHyRgDM9b0tvDxz+Zrz9OEXX1rbpyAJJ5OlV6s7t6TlcSKDP7jToRc"
+    },
+    {
+      "path": "/ui/v0.1.0-rc/icons/apple-touch-icon.png",
+      "bytes": 22046,
+      "sha384": "sha384-u5+xObVucWrYwRpt9FVG8btRu81jzN92cmPGfIDspllT5utp7nuNqLjsvSrXOlKH"
+    },
+    {
+      "path": "/ui/v0.1.0-rc/icons/favicon-16x16.png",
+      "bytes": 631,
+      "sha384": "sha384-GNeju8SO9OHxbDNzENEfJ8GRZd+oWlmG6G2dc9wmjHkP0LP8SJEel5bMKzk8Amvw"
+    },
+    {
+      "path": "/ui/v0.1.0-rc/icons/favicon-32x32.png",
+      "bytes": 1493,
+      "sha384": "sha384-BBeLlGkDWnKfmvdxMUhnZ44wWkhCIjLp3Vl8sdAUV/enCFftL69EAZYGQ8v0Us3x"
+    },
+    {
+      "path": "/ui/v0.1.0-rc/icons/favicon-48x48.png",
+      "bytes": 1685,
+      "sha384": "sha384-UWjLdmR0hTxOzD04t6Rqd3ThYan4yvHRAYm1j7V8I6/h4BU3tMs6qR9OBKd+DAC6"
+    },
+    {
+      "path": "/ui/v0.1.0-rc/icons/favicon-dark.svg",
+      "bytes": 4045,
+      "sha384": "sha384-rav5cudq01OMFDedMutjSLFoJRsLCAP6XY3yf0I61RvMJK+iFnrQTWQIlN0b4/d5"
+    },
+    {
+      "path": "/ui/v0.1.0-rc/icons/favicon-light.svg",
+      "bytes": 4045,
+      "sha384": "sha384-FiHUHK/7pMHtPKklDsKKpjR7Sp6FDyfErU84SvK08pedrjCqsZLmDZAj9X6x31r0"
+    },
+    {
+      "path": "/ui/v0.1.0-rc/icons/favicon-mono-black.svg",
+      "bytes": 3955,
+      "sha384": "sha384-tzpMWCEsz4+TuyG7X4gEeKvB9dz8Xb6S2K6ZQp9qosjlRk9K/JX0RV8FIIND1E7u"
+    },
+    {
+      "path": "/ui/v0.1.0-rc/icons/favicon-mono-white.svg",
+      "bytes": 3955,
+      "sha384": "sha384-SzFmUjb1XJ5AqgbquVn5Xs2KNdzn45JCZQxJ4XDzo8PTxobyqX0jX9nKxuj1GlRn"
+    },
+    {
+      "path": "/ui/v0.1.0-rc/icons/favicon.ico",
+      "bytes": 15406,
+      "sha384": "sha384-ajpHZdOiYud2PDGbFflePQ68p+vqtKuSmUoU9XareDA4B/VxnUXur67TTRhsYkmC"
+    },
+    {
+      "path": "/ui/v0.1.0-rc/icons/favicon.svg",
+      "bytes": 4072,
+      "sha384": "sha384-NRBhtNYmVTBUkRrQT/VqEcaammJeIDhHuJ6jQA7i2CxnAe0P8mk4PN6iE2VeK+/z"
+    },
+    {
+      "path": "/ui/v0.1.0-rc/icons/site.webmanifest",
+      "bytes": 460,
+      "sha384": "sha384-+vGbp7DMYS80GyDU2j4Vmm5TKgjV895Gj92sO2lCrQrvH6NWcUbhRJjL/O7H1CRy"
+    },
+    {
+      "path": "/ui/v0.1.0-rc/logo/logo-mark.color.svg",
+      "bytes": 3963,
+      "sha384": "sha384-lJY1Ss6tgcJlh6vLxmn2yVArKc01SEneNcvy+lB/RXiX4b9G6TcWGRRq3jxfHCi1"
+    },
+    {
+      "path": "/ui/v0.1.0-rc/logo/logo-mark.dark.svg",
+      "bytes": 3963,
+      "sha384": "sha384-llXpRvV4/dbaSBkpuetjr71cZ79GQ1s06khOj5d1eWJM9eBVoe1w7EBCJPH8fEe/"
+    },
+    {
+      "path": "/ui/v0.1.0-rc/logo/logo-mark.mono-black.svg",
+      "bytes": 3873,
+      "sha384": "sha384-AEv2viRgqXjMxi84hmMH4JP0gMW9fg03RMoDRrMviVc6s8NSSHQ5JPtmPMYNJ6pn"
+    },
+    {
+      "path": "/ui/v0.1.0-rc/logo/logo-mark.mono-white.svg",
+      "bytes": 3873,
+      "sha384": "sha384-x74/qhICsknvGfrffO8R2VqDXFzYdjkIanqIrotFcHtvcIEJUg4Wq9DtONUALHUb"
+    },
+    {
+      "path": "/ui/v0.1.0-rc/logo/logo-mark.svg",
+      "bytes": 3961,
+      "sha384": "sha384-XWm8xac/L5AvKC1SbVwnFHeCJiaU2shXYA3cP0rliE/jmBSkHnVRu9zBF4kgYQ3w"
+    },
+    {
+      "path": "/ui/v0.1.0-rc/primitives.css",
+      "bytes": 10519,
+      "sha384": "sha384-2xw6SB/Am98CjeoTUeheRk/noCliic4QQLMDj5akiZXEX0/Ee1s1/FIqLeCFGWAY"
+    },
+    {
+      "path": "/ui/v0.1.0-rc/tokens.css",
+      "bytes": 10711,
+      "sha384": "sha384-bb7Q3ykDNkJUq/bFqbD6xGU4BdHiyrJlv9aCcmysW1quwPHY0uCYj5idCz9OIsH2"
+    }
+  ]
+}

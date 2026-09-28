@@ -1,0 +1,6 @@
+# 生成物仓。ui/ 下每个字节都要与 manifest.json 里的 sha384 一致，
+# 任何行尾转换都会让哈希失配、让 SRI 校验失败。因此对这些文件关闭一切转换。
+ui/** -text
+
+# 仓自身的文本文件统一 LF，避免 Windows 检出后再提交产生整文件 diff。
+* text=auto eol=lf
