@@ -20,8 +20,9 @@ a{color:#004565}
 <p>当前版本 <strong>0.1.0-rc</strong> · 共 24 个文件</p>
 <h2>接入片段</h2>
 <h3>预编译令牌 CSS（Go demo / 任何非 Node 构建的消费方）</h3><pre><code>&lt;link rel="stylesheet" href="https://cdn.autional.cn/ui/v0.1.0-rc/tokens.css"></code></pre>
-<h3>字体（跨站共用同一 URL 才会命中同一份缓存）</h3><pre><code>&lt;link rel="preload" as="font" type="font/woff2" crossorigin
-      href="https://cdn.autional.cn/ui/v0.1.0-rc/fonts/inter-latin-wght-normal.woff2"></code></pre>
+<h3>字体：**不要 preload**。tokens.css 里的 @font-face 已经引用它，浏览器自己会取。</h3><pre><code>/* 实测（2026-09）：给 9 个 SPA 站点加这条 preload 后，admin-console 的视觉回归从
+   基线 1063px / 0.082% 变成 5412px / 0.418%（SSIM 0.9791），重跑三次逐位相同——
+   是确定性差异，不是网络抖动。它换不来可证明的收益，所以不写进接入片段。 */</code></pre>
 <h3>站点图标套件（5 条 link，含 32x32 与 apple-touch）</h3><pre><code>&lt;link rel="icon" href="https://cdn.autional.cn/ui/v0.1.0-rc/icons/favicon.ico" sizes="any">
 &lt;link rel="icon" type="image/png" sizes="32x32" href="https://cdn.autional.cn/ui/v0.1.0-rc/icons/favicon-32x32.png">
 &lt;link rel="icon" type="image/png" sizes="16x16" href="https://cdn.autional.cn/ui/v0.1.0-rc/icons/favicon-16x16.png">
@@ -47,7 +48,7 @@ import '@autional-cn/tokens/tokens.css'</code></pre>
 <tr><td><a href="/ui/v0.1.0-rc/icons/favicon-mono-white.svg">icons/favicon-mono-white.svg</a></td><td class="n">3943</td><td class="h">sha384-+cvvAySvG+oQptf…</td></tr>
 <tr><td><a href="/ui/v0.1.0-rc/icons/favicon.ico">icons/favicon.ico</a></td><td class="n">15406</td><td class="h">sha384-ajpHZdOiYud2PDG…</td></tr>
 <tr><td><a href="/ui/v0.1.0-rc/icons/favicon.svg">icons/favicon.svg</a></td><td class="n">3989</td><td class="h">sha384-VedqBLa1rjLF/Ny…</td></tr>
-<tr><td><a href="/ui/v0.1.0-rc/icons/site.webmanifest">icons/site.webmanifest</a></td><td class="n">460</td><td class="h">sha384-+vGbp7DMYS80GyD…</td></tr>
+<tr><td><a href="/ui/v0.1.0-rc/icons/site.webmanifest">icons/site.webmanifest</a></td><td class="n">432</td><td class="h">sha384-HdAtWs7Z3bQeoBK…</td></tr>
 <tr><td><a href="/ui/v0.1.0-rc/logo/logo-mark.color.svg">logo/logo-mark.color.svg</a></td><td class="n">3952</td><td class="h">sha384-jsXq2Z+su7odo7E…</td></tr>
 <tr><td><a href="/ui/v0.1.0-rc/logo/logo-mark.dark.svg">logo/logo-mark.dark.svg</a></td><td class="n">3952</td><td class="h">sha384-uT9wFl9lUk/QsEy…</td></tr>
 <tr><td><a href="/ui/v0.1.0-rc/logo/logo-mark.mono-black.svg">logo/logo-mark.mono-black.svg</a></td><td class="n">3862</td><td class="h">sha384-+kwMW70owk+rXOn…</td></tr>
