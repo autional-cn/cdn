@@ -241,7 +241,7 @@
 --image-page-dark: radial-gradient(circle at top left, rgba(135, 206, 235, 0.12), transparent 28%), radial-gradient(circle at top right, rgba(255, 191, 0, 0.08), transparent 20%), linear-gradient(180deg, #041d31 0%, #031425 45%, #020b14 100%);
 }
 
-@layer base {
+
   html {
     font-family: var(--font-sans);
     -webkit-font-smoothing: antialiased;
@@ -256,7 +256,7 @@
     outline: var(--focus-ring-width) solid var(--focus-ring-color);
     outline-offset: var(--focus-ring-offset);
   }
-}
+
 
 [data-theme="portal"] {
 /* ── color ── */

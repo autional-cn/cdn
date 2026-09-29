@@ -72,8 +72,8 @@
     },
     {
       "path": "/ui/v0.1.0-rc/icons/favicon.svg",
-      "bytes": 3989,
-      "sha384": "sha384-VedqBLa1rjLF/Nyk907sXqBvk1xS+eu1kNpZnEKKw3/QHWpW1qtU8HdAt3UzJybw"
+      "bytes": 4060,
+      "sha384": "sha384-JPmCAvWuBBW9ti52yEeN28W1mnuyM+Q1tGYWAQQ9socSTCAx/Z6KlYlewXidgi7K"
     },
     {
       "path": "/ui/v0.1.0-rc/icons/site.webmanifest",
@@ -107,13 +107,23 @@
     },
     {
       "path": "/ui/v0.1.0-rc/primitives.css",
-      "bytes": 17751,
-      "sha384": "sha384-tFQA8HT++yQbHc3wkLYZKDX0Ie8Bb5lpwZjHpvV8GMXzFPX2hI1JOzq99uitUtkh"
+      "bytes": 17717,
+      "sha384": "sha384-cdcb/b2btTPe+lWN7AW9QMP/99ob5C470FG0HpL4eCqge2LCOtOjN9sAPiGV5iNv"
+    },
+    {
+      "path": "/ui/v0.1.0-rc/profiles/developer.css",
+      "bytes": 1395,
+      "sha384": "sha384-cQZXZQepvBw65IAAOPFmuKfpJrC80oMxgUn+EM6Ax2OS1mc7ahJDttxxW/H+A5/R"
+    },
+    {
+      "path": "/ui/v0.1.0-rc/profiles/docs.css",
+      "bytes": 1390,
+      "sha384": "sha384-1XPdGMwfw8p11Rq78MlYkoZKexTRSSAevIkkAFcSUplEqeUDGKY0XQvryaybkTkJ"
     },
     {
       "path": "/ui/v0.1.0-rc/tokens.css",
-      "bytes": 11727,
-      "sha384": "sha384-p13bcD2X3eSSO+8fusTe5iyHMb65OkYS9s3UY5e2Vj2x+A3X0ZVlaUJ4SwFWirnx"
+      "bytes": 11713,
+      "sha384": "sha384-OCCWUzKZJNMCZXnxaa6ylqOoX/fmB1FVJbcGaQi/WFp1JQbigU+d4nSRQe7JNwbc"
     }
   ]
 }
