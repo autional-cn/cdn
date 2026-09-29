@@ -1,6 +1,6 @@
 # autional-cn/cdn
 
-`cdn.autional.cn` 的内容源。**这个仓的 `ui/` 目录是生成物，不要手工编辑。**
+`cdn.autional.cn` 的内容源。**这个仓的 `ui/` 与 `demo/` 目录都是生成物，不要手工编辑。**
 
 ## 它是什么
 
@@ -15,6 +15,19 @@
 **不是构建期代码的分发通道。** `tokens/index.js`、`tailwind-preset`、`antd-theme`、React 组件
 必须在构建时被 bundler 解析，CDN 的 `<script>` 语义解决不了这个问题。那些走 npm：`@autional-cn/*`。
 
+## `demo/` 是什么
+
+服务 demo 的运行时资产（`brand.css` / `brand-dark.css` / `brand-logo.svg` / `demo.js`）。
+唯一源 = `autional/ui-demo` 模块的 `demokit/assets/`（26 个服务 demo 页共一份，防漂移）。
+发布：在 ui-demo 对应版本打 tag 后，于该仓运行
+
+```bash
+go run ./cmd/publish-cdn -version v1.8.0 -out <cdn 仓路径>
+```
+
+它读 **git blob**（LF 原始字节）而不是工作区文件（Windows 检出为 CRLF），与 CI 构建机
+`go:embed` 进二进制的字节逐字节一致。铁律同样适用：路径版本化且不可变。
+
 ## 铁律
 
 1. **路径版本化且不可变。** `/ui/v<version>/` 下的内容是永久缓存（`max-age=31536000, immutable`）。
@@ -27,8 +40,12 @@
 ## 怎么更新
 
 ```bash
-# 在 autional-cn/ui 仓里
+# ui/：在 autional-cn/ui 仓里
 pnpm build:cdn            # 默认输出到 ../cdn
+
+# demo/：在 autional/ui-demo 仓里（对应版本已打 tag）
+go run ./cmd/publish-cdn -version v1.8.0 -out <cdn 仓路径>
+
 cd ../cdn && git add -A && git commit -m "..." && git push
 ```
 
@@ -44,6 +61,8 @@ ui/v<version>/primitives.css
 ui/v<version>/fonts/
 ui/v<version>/icons/         favicon 套件 + 生成的 site.webmanifest
 ui/v<version>/logo/
+demo/v<version>/manifest.json  demokit 资产清单（path / bytes / sha384）
+demo/v<version>/              brand.css / brand-dark.css / brand-logo.svg / demo.js
 ```
 
 `site.webmanifest` 是**生成**的而非拷贝来的：原始那份用相对路径，搬到 CDN 上就是死链；
