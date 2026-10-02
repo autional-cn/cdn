@@ -1,5 +1,6 @@
 {
   "$note": "CDN 资产清单。sha384 用于 <link>/<script> 的 integrity 属性与 SRI 校验。路径一律不可变：内容变了必须换版本号。",
+  "generatedAt": "2026-10-02T15:57:00.145Z",
   "version": "0.1.0-rc.3cea084e",
   "base": "/ui/v0.1.0-rc.3cea084e",
   "origin": "https://cdn.autional.cn",
