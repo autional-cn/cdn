@@ -1,0 +1,3 @@
+# cdn.autional.cn — 设计系统运行期资产站（版本化、不可变）；说明页已 noindex。
+User-agent: *
+Allow: /
