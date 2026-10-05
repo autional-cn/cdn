@@ -67,7 +67,7 @@
   "rewrites": [
     {
       "source": "/ai/latest/:path*",
-      "destination": "/ai/v0.1.0-7234c299/:path*"
+      "destination": "/ai/v0.1.0-ca23fc19/:path*"
     }
   ]
 }
