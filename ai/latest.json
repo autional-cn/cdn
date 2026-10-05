@@ -1,0 +1,8 @@
+{
+  "product": "autional-skill",
+  "region": "cn",
+  "version": "v0.1.0-5677a4e0",
+  "sdkCommit": "818cd50",
+  "source": "https://github.com/autional/sdk/tree/main/skills/autional-cn",
+  "files": ["SKILL.md","SKILL.en.md","references/compliance-matrix.md","references/config-template.md"]
+}
