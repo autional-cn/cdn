@@ -13,7 +13,7 @@
 ## 它不是什么
 
 **不是构建期代码的分发通道。** `tokens/index.js`、`tailwind-preset`、`antd-theme`、React 组件
-必须在构建时被 bundler 解析，CDN 的 `<script>` 语义解决不了这个问题。那些走 npm：`@autional-cn/*`。
+必须在构建时被 bundler 解析，CDN 的 `<script>` 语义解决不了这个问题。那些走 npm：`@autional/*`。
 
 ## `demo/` 是什么
 
