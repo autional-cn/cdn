@@ -114,6 +114,8 @@
 --color-info-text-rgb: 0 80 179;
 --color-info-soft: #e6f4ff;
 --color-info-soft-rgb: 230 244 255;
+--color-primary-soft: var(--color-primary-100);
+--color-primary-soft-rgb: var(--color-primary-100-rgb);
 --color-warning-text: #966003;
 --color-warning-text-rgb: 150 96 3;
 --color-text-disabled: var(--color-neutral-400);
@@ -136,6 +138,22 @@
 --color-chart-7-rgb: 139 92 246;
 --color-chart-8: #ef4444;
 --color-chart-8-rgb: 239 68 68;
+--color-syntax-plain: #f1f5f9;
+--color-syntax-plain-rgb: 241 245 249;
+--color-syntax-comment: #94a3b8;
+--color-syntax-comment-rgb: 148 163 184;
+--color-syntax-keyword: #a78bfa;
+--color-syntax-keyword-rgb: 167 139 250;
+--color-syntax-string: #bef264;
+--color-syntax-string-rgb: 190 242 100;
+--color-syntax-number: #fbbf24;
+--color-syntax-number-rgb: 251 191 36;
+--color-syntax-function: #67e8f9;
+--color-syntax-function-rgb: 103 232 249;
+--color-syntax-type: #6ee7b7;
+--color-syntax-type-rgb: 110 231 183;
+--color-syntax-tag: #f9a8d4;
+--color-syntax-tag-rgb: 249 168 212;
 --color-method-get: var(--color-primary-600);
 --color-method-get-rgb: var(--color-primary-600-rgb);
 --color-method-post: var(--color-success);
@@ -194,6 +212,10 @@
 --color-brand-soft-rgb: var(--color-sky-300-rgb);
 --color-brand-active: var(--color-primary-800);
 --color-brand-active-rgb: var(--color-primary-800-rgb);
+--color-brand-text-base: var(--color-brand-base);
+--color-brand-text-base-rgb: var(--color-brand-base-rgb);
+--color-brand-text: var(--color-brand-text-base);
+--color-brand-text-rgb: var(--color-brand-text-base-rgb);
 --color-accent: var(--color-amber-500);
 --color-accent-rgb: var(--color-amber-500-rgb);
 
@@ -269,10 +291,16 @@
 --space-8: 32px;
 --space-10: 40px;
 --space-12: 48px;
---space-hero-gap: 40px;
+--space-16: 64px;
+--space-20: 80px;
+--space-0.5: 2px;
+--space-1.5: 6px;
+--space-2.5: 10px;
+--space-3.5: 14px;
 --space-section-gap: 48px;
 
 /* ── radius ── */
+--radius-xs: 4px;
 --radius-sm: 8px;
 --radius-md: 16px;
 --radius-lg: 24px;
@@ -293,10 +321,15 @@
 --motion-duration-base: 200ms;
 --motion-duration-slow: 300ms;
 --motion-duration-slower: 500ms;
+--motion-duration-timeline: 1000ms;
 --motion-ease-standard: cubic-bezier(0.4, 0, 0.2, 1);
 --motion-ease-out: cubic-bezier(0.16, 1, 0.3, 1);
 --motion-ease-in: cubic-bezier(0.4, 0, 1, 1);
 --motion-ease-in-out: cubic-bezier(0.65, 0, 0.35, 1);
+--motion-ease-linear: cubic-bezier(0, 0, 1, 1);
+
+/* ── icon ── */
+--icon-stroke: 2;
 
 /* ── focus ── */
 --focus-ring-width: 2px;
@@ -317,6 +350,7 @@
 /* ── layout ── */
 --layout-header-height: 64px;
 --layout-header-height-compact: 56px;
+--layout-bottom-nav-height: 64px;
 --layout-max-width: 1280px;
 --layout-prose-width: 768px;
 --layout-breakpoint-sm: 640px;
@@ -435,6 +469,8 @@
 --color-info-text-rgb: var(--color-info-rgb);
 --color-info-soft: #0a2540;
 --color-info-soft-rgb: 10 37 64;
+--color-primary-soft: #0f3348;
+--color-primary-soft-rgb: 15 51 72;
 --color-warning-text: var(--color-warning);
 --color-warning-text-rgb: var(--color-warning-rgb);
 --color-text-disabled: var(--color-neutral-500);
@@ -447,6 +483,8 @@
 --color-on-brand-rgb: var(--color-on-brand-dark-rgb);
 --color-brand-soft: var(--color-sky-700);
 --color-brand-soft-rgb: var(--color-sky-700-rgb);
+--color-brand-text: var(--color-sky-400);
+--color-brand-text-rgb: var(--color-sky-400-rgb);
 --color-chart-1: #75abd5;
 --color-chart-1-rgb: 117 171 213;
 --color-chart-2: #bde6f5;
@@ -528,6 +566,8 @@
 --color-info-text-rgb: var(--color-info-rgb);
 --color-info-soft: #0a2540;
 --color-info-soft-rgb: 10 37 64;
+--color-primary-soft: #0f3348;
+--color-primary-soft-rgb: 15 51 72;
 --color-warning-text: var(--color-warning);
 --color-warning-text-rgb: var(--color-warning-rgb);
 --color-text-disabled: var(--color-neutral-500);
@@ -540,6 +580,8 @@
 --color-on-brand-rgb: var(--color-on-brand-base-rgb);
 --color-brand-soft: var(--color-sky-700);
 --color-brand-soft-rgb: var(--color-sky-700-rgb);
+--color-brand-text: var(--color-sky-400);
+--color-brand-text-rgb: var(--color-sky-400-rgb);
 --color-chart-1: #75abd5;
 --color-chart-1-rgb: 117 171 213;
 --color-chart-2: #bde6f5;
