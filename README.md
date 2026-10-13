@@ -1,3 +1,5 @@
+> **本仓库已归档**（只读）：源码与后续开发已迁移至 [github.com/autional/cdn](https://github.com/autional/cdn)；线上服务见 [cdn.autional.cn](https://cdn.autional.cn)。
+
 # autional-cn/cdn
 
 `cdn.autional.cn` 的内容源。**这个仓的 `ui/` 与 `demo/` 目录都是生成物，不要手工编辑。**
